@@ -1,0 +1,600 @@
+@media only screen  and (man-width:600px){
+    body{
+        background-color: aliceblue;
+    }
+}
+body {
+    text-align: center;
+    position: relative;
+	font-family: 'ubuntu',sans-serif;
+}
+.main{
+    background-image: url("div.png");
+}
+
+h2 {
+    color: red;
+	font-family: 'ubuntu',sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 235, 235) !important;
+    color: red !important;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo img {
+    padding-top: 5px;
+    height: 50px;
+    width: auto;
+}
+
+.lifeline {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.image {
+    height: 100px;
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 50px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.img-container {
+    float: left;
+    width: 30%;
+
+}
+
+.bloodcell {
+    padding-top: 60px;
+    width: 1100px;
+    height: 380px;
+}
+
+.boxlife {
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.female {
+    width: 470px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btns {
+
+    position:absolute;
+	margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    cursor: progress;
+    padding-bottom: 2550px;
+}
+.donarbtn  a {
+	color: aliceblue;
+	text-decoration: none;
+}
+.donarbtn  a:hover {
+	color: crimson;
+}
+.donarbtn {
+
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+	width: auto;
+}
+
+.finderbtn {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+	width: auto;
+}
+.finderbtn a {
+	color: aliceblue;
+	text-decoration: none;
+}
+.finderbtn a:hover {
+	color: black;
+}
+
+.mobile {
+    padding-left: 250px;
+}
+
+/* .frames1 {
+    padding-right: 250px;
+    width: 400px;
+    height: 600px;
+} */
+/* 
+.donatebld {
+    height: 300px;
+    width: 300px;
+    padding-right: 550px;
+    padding-left: 550px;
+} */
+
+
+
+.lasttag {
+    padding-top: 150px;
+    padding-right: 450px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 235, 235) !important;
+    color: red !important;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo img {
+    padding-top: 5px;
+    height: 50px;
+    width: auto;
+}
+
+
+
+/* Frames */
+
+.e1_4 { 
+	overflow:hidden;
+}
+.e1_4 { 
+	width:1220px;
+	height:800px;
+	position:absolute;
+}
+.e1_5 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:151px;
+	height:80px;
+	position:absolute;
+	left:464px;
+	top:37.5px;
+	font-family:Ubuntu;
+	text-align:center;
+	font-size:28px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_6 { 
+	width:470px;
+	height:649.8125px;
+	position:absolute;
+	left:0px;
+	top:118px;
+}
+.e1_7 { 
+	width:470px;
+	height:649.8125px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url("mobile.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_8 { 
+	width:570px;
+	height:520.5625px;
+	position:absolute;
+	left:615px;
+	top:175px;
+}
+.e1_9 { 
+	box-shadow:-13px -1px 29px rgba(214.00000244379044, 214.00000244379044, 214.00000244379044, 1);
+	background-color:rgba(255, 255, 255, 1);
+	width:570px;
+	height:176.1875px;
+	position:absolute;
+	left:0px;
+	top:105px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.e1_10 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:125.85624694824219px;
+	height:25px;
+	position:absolute;
+	left:80px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_11 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:470.13751220703125px;
+	height:64px;
+	position:absolute;
+	left:80px;
+	top:73.1875px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_12 { 
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:17px;
+	top:40px;
+	background-image:url(images/search_png.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_13 { 
+	box-shadow:-13px -1px 29px rgba(214.00000244379044, 214.00000244379044, 214.00000244379044, 1);
+	background-color:rgba(255, 255, 255, 1);
+	width:570px;
+	height:152.1875px;
+	position:absolute;
+	left:0px;
+	top:301px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.e1_14 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:199.5124969482422px;
+	height:25px;
+	position:absolute;
+	left:80px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_15 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:468.10626220703125px;
+	height:40px;
+	position:absolute;
+	left:80px;
+	top:73.1875px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_16 { 
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:17px;
+	top:40px;
+	background-image:url(images/hands_png.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_17 { 
+	box-shadow:-13px -1px 29px rgba(214.00000244379044, 214.00000244379044, 214.00000244379044, 1);
+	background-color:rgba(255, 255, 255, 1);
+	width:570px;
+	height:152.1875px;
+	position:absolute;
+	left:0px;
+	top:473px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.e1_18 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:143.0281219482422px;
+	height:25px;
+	position:absolute;
+	left:80px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_19 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:448.09063720703125px;
+	height:40px;
+	position:absolute;
+	left:80px;
+	top:73.1875px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_20 { 
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:17px;
+	top:40px;
+	background-image:url(images/bell_png.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_21 { 
+	box-shadow:-13px -1px 29px rgba(214.00000244379044, 214.00000244379044, 214.00000244379044, 1);
+	background-color:rgba(255, 255, 255, 1);
+	width:570px;
+	height:176.1875px;
+	position:absolute;
+	left:0px;
+	top:-88px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.e1_22 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:125.85624694824219px;
+	height:25px;
+	position:absolute;
+	left:80px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_23 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:470.13751220703125px;
+	height:64px;
+	position:absolute;
+	left:80px;
+	top:73.1875px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_24 { 
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:17px;
+	top:40px;
+	background-image:url(images/search_png.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* TIPS */
+
+.e1_26 { 
+	overflow:hidden;
+    text-align: center;
+}
+.e1_26 { 
+	width:400px;
+	height:158px;
+	position:absolute;
+}
+.e1_27 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:55.98125076293945px;
+	height:31px;
+	position:absolute;
+	left:172.109375px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:center;
+	font-size:28px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_28 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:346.37188720703125px;
+	height:40px;
+	position:absolute;
+	left:26.90625px;
+	top:104px;
+	font-family:Ubuntu;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+
+/* BLOGS */
+.e1_71 { 
+	overflow:hidden;
+}
+.e1_71 { 
+	background-color:rgba(251.00000023841858, 251.00000023841858, 251.00000023841858, 1);
+	width:1920px;
+	height:702px;
+	position:absolute;
+}
+.e1_72 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1920px;
+	height:90px;
+	position:absolute;
+	left:0px;
+	top:652px;
+}
+.e1_73 { 
+	width:1170px;
+	height:662px;
+	position:absolute;
+	left:205px;
+	top:40px;
+}
+.e1_74 { 
+	width:1170px;
+	height:182px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e1_75 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:61.49687576293945px;
+	height:31px;
+	position:absolute;
+	left:554.34375px;
+	top:34px;
+	font-family:Ubuntu;
+	text-align:center;
+	font-size:28px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_76 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:1132.074951171875px;
+	height:64px;
+	position:absolute;
+	left:19.0625px;
+	top:104px;
+	font-family:Ubuntu;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_77 { 
+	box-shadow:0px 14px 10px rgba(204.00000303983688, 204.00000303983688, 204.00000303983688, 0.47999998927116394);
+	background-color:rgba(255, 255, 255, 1);
+	width:360px;
+	height:450px;
+	position:absolute;
+	left:15px;
+	top:201px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.e1_78 { 
+	width:360px;
+	height:205.1875px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/benefits_of_blood_donation_jpg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_79 { 
+	width:360px;
+	height:243.796875px;
+	position:absolute;
+	left:0px;
+	top:205.1875px;
+}
+.e1_80 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:225.4031219482422px;
+	height:20px;
+	position:absolute;
+	left:15px;
+	top:24px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:px;
+}
+.e1_81 { 
+	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	width:328.99688720703125px;
+	height:136px;
+	position:absolute;
+	left:15px;
+	top:58.796875px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+
+.e1_82 { 
+	width:330px;
+	height:20px;
+	position:absolute;
+	left:15px;
+	top:208.796875px;
+}
+.e1_83 { 
+	color:rgba(66.00000366568565, 139.0000069141388, 202.00000315904617, 1);
+	width:70.35624694824219px;
+	height:16px;
+	position:absolute;
+	left:0px;
+	top:2px;
+	font-family:Ubuntu;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+}
+
+.card {
+	margin:50px;
+}
+
+
